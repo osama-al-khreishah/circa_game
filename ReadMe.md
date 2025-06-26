@@ -42,7 +42,22 @@ D --> E[Generate Next Question]
 E --> C
 C -->|User Ends Game| F[Calculate Score, Best Time, Show History]
 ```
+## Sample API Requests (for Postman or Swagger)
 
+- 1- Start a New Game POST /game/start
+    - {
+    - "name": "Osama",
+    - "difficulty": 2
+    - }
+
+- 2- Submit an Answer POST /game/{game_id}/submit
+    - Replace {game_id} with the actual game ID you receive
+    - {
+    - "answer": 42.0
+    - }
+- 3- End the Game GET /game/{game_id}/end
+    - Just use the same game ID .
+---
 ##  Setup Instructions
 
 
