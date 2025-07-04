@@ -1,4 +1,4 @@
-# app/utils.py
+# app/questions.py
 import random
 from typing import Tuple
 
