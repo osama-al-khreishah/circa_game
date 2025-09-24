@@ -1,6 +1,6 @@
 
 # 🧠 Dev Mind Speed Game API  
-*A Backend Task Submission for Circa*
+
 
 Welcome to **Dev Mind Speed**, a high-speed mental math game built entirely as a **backend API**. Players solve dynamically generated math questions via **API requests** using tools like **Postman** or **Swagger UI**, with the system tracking accuracy and response times — no frontend needed.
 
